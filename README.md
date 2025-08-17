@@ -46,11 +46,11 @@ By visualizing these metrics, institutions can:
 
 🟪 Square chart → Academic Pressure
 
-<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/8169b70f-b4e8-4c2e-ba16-55a8ee94a6a8" />
+<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/8169b70f-b4e8-4c2e-ba16-55a8ee94a6a8" />
 
 🔴 Bubble chart → Financial Stress
 
-<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/a6cb1973-72c7-46df-9ee0-a49984aa170f" />
+<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/a6cb1973-72c7-46df-9ee0-a49984aa170f" />
 
 5️⃣ Combined all sheets into a single interactive dashboard.
 
