@@ -48,6 +48,8 @@ By visualizing these metrics, institutions can:
 
 📊 Bar chart → Study Satisfaction
 
+<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/c030bf2d-41af-4295-b51f-ffe98ed7092a" />
+
 🟪 Square chart → Academic Pressure
 
 <img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/8169b70f-b4e8-4c2e-ba16-55a8ee94a6a8" />
