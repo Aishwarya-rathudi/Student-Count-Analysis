@@ -44,6 +44,8 @@ By visualizing these metrics, institutions can:
 
 📈 Line chart → Study Hours
 
+<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/60a24790-2081-4e2e-94ce-76dd4bb2fc25" />
+
 📊 Bar chart → Study Satisfaction
 
 🟪 Square chart → Academic Pressure
