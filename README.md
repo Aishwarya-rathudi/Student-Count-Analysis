@@ -64,6 +64,8 @@ By visualizing these metrics, institutions can:
 
 🖼️ Dashboard Snapshot
 
+<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/6bf5a4dd-b0f0-4009-b8b7-8afbab9f3150" />
+
 🔍 Insights
 🛌 Sleep Duration
 
