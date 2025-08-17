@@ -100,31 +100,49 @@ Other levels: 94–102 students each
 👉 Financial stress is not a major issue.
 
 🗄️ Data Preparation Queries (SQL Server)
+
 -- Sleep Duration distribution
+
 SELECT Sleep_Duration, COUNT(Student_ID) AS Student_Count
+
 FROM Student_Data
+
 GROUP BY Sleep_Duration;
 
 -- Study Hours distribution
+
 SELECT Study_Hours, COUNT(Student_ID) AS Student_Count
+
 FROM Student_Data
+
 GROUP BY Study_Hours
+
 ORDER BY Study_Hours;
 
 -- Study Satisfaction levels
+
 SELECT Study_Satisfaction, COUNT(Student_ID) AS Student_Count
+
 FROM Student_Data
+
 GROUP BY Study_Satisfaction
+
 ORDER BY Study_Satisfaction;
 
 -- Academic Pressure levels
+
 SELECT Academic_Pressure, COUNT(Student_ID) AS Student_Count
+
 FROM Student_Data
+
 GROUP BY Academic_Pressure;
 
 -- Financial Stress levels
+
 SELECT Financial_Stress, COUNT(Student_ID) AS Student_Count
+
 FROM Student_Data
+
 GROUP BY Financial_Stress;
 
 📚 Key Learnings
