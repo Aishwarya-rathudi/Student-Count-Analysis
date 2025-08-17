@@ -1,7 +1,9 @@
 🎓 Student Count Analysis Dashboard
 
 📊 Built with: Tableau Desktop + Microsoft SQL Server
+
 📂 Domain: Education Analytics
+
 🔗 Type: Data Visualization & Insights
 
 ✨ Problem Statement
@@ -40,7 +42,9 @@ By visualizing these metrics, institutions can:
 🟪 Square chart → Academic Pressure
 
 🔴 Bubble chart → Financial Stress
+
 5️⃣ Combined all sheets into a single interactive dashboard.
+
 6️⃣ Added formatting, labels, and insights.
 
 🖼️ Dashboard Snapshot
