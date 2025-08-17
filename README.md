@@ -23,14 +23,19 @@ This dashboard helps analyze key factors that impact students’ academic and pe
 By visualizing these metrics, institutions can:
 
 ✔ Identify problem areas like low satisfaction, high academic pressure, or lack of sleep
+
 ✔ Improve student well-being with data-driven decisions
+
 ✔ Monitor overall trends in learning habits & stress management
 
 ⚙️ Steps Followed
 
 1️⃣ Data stored in SQL Server and queried for analysis.
+
 2️⃣ Data imported into Tableau Desktop.
+
 3️⃣ Cleaned & prepared data (handled nulls, formatted fields).
+
 4️⃣ Created visuals for each factor:
 
 🔵 Circle chart → Sleep Duration
@@ -59,6 +64,7 @@ By visualizing these metrics, institutions can:
 < 5 hrs → 123 students
 
 8 hrs → 128 students
+
 👉 Students are evenly distributed across sleep patterns.
 
 📖 Study Hours
@@ -74,6 +80,7 @@ Average: 6–8 hrs
 Highest: 116 students (Level 4)
 
 Lowest: 86 students (Level 1)
+
 👉 Majority are moderately satisfied.
 
 🎯 Academic Pressure (Scale 1–5)
@@ -81,6 +88,7 @@ Lowest: 86 students (Level 1)
 Max: 125 students (Level 3)
 
 Min: 88 students (Level 2)
+
 👉 Most face moderate pressure.
 
 💰 Financial Stress (Scale 1–5)
@@ -88,6 +96,7 @@ Min: 88 students (Level 2)
 Lowest stress (Level 1) → 110 students
 
 Other levels: 94–102 students each
+
 👉 Financial stress is not a major issue.
 
 🗄️ Data Preparation Queries (SQL Server)
@@ -121,6 +130,9 @@ GROUP BY Financial_Stress;
 📚 Key Learnings
 
 ✅ How to connect SQL Server → Tableau Desktop
+
 ✅ Writing SQL queries for aggregation & preparation
+
 ✅ Building multi-factor dashboards
+
 ✅ Designing storytelling dashboards for insights
