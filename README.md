@@ -1,56 +1,122 @@
-# Student-Count-Analysis
+🎓 Student Count Analysis Dashboard
 
-Student Count Analysis Dashboard
+📊 Built with: Tableau Desktop + Microsoft SQL Server
+📂 Domain: Education Analytics
+🔗 Type: Data Visualization & Insights
 
-📊 Project Overview
+✨ Problem Statement
 
-This project analyzes student-related factors such as sleep duration, study hours, study satisfaction, academic pressure, and financial stress.
-The data is stored in Microsoft SQL Server and visualized using Tableau Desktop. The dashboard helps to identify patterns and insights into how different factors impact students’ study behavior and stress levels.
+This dashboard helps analyze key factors that impact students’ academic and personal life, such as:
 
-🛠️ Tools & Technologies
+🛌 Sleep Duration
 
-Microsoft SQL Server – for storing and querying data
+📖 Study Hours
 
-Tableau Desktop – for data visualization and dashboard creation
+🙂 Study Satisfaction
 
-GitHub – for version control and project sharing
+🎯 Academic Pressure
 
-📂 Dataset
+💰 Financial Stress
 
-Source: SQL Server (custom dataset)
+By visualizing these metrics, institutions can:
 
-Key Fields:
+✔ Identify problem areas like low satisfaction, high academic pressure, or lack of sleep
+✔ Improve student well-being with data-driven decisions
+✔ Monitor overall trends in learning habits & stress management
 
-Sleep Duration (SD)
+⚙️ Steps Followed
 
-Study Hours (SH)
+1️⃣ Data stored in SQL Server and queried for analysis.
+2️⃣ Data imported into Tableau Desktop.
+3️⃣ Cleaned & prepared data (handled nulls, formatted fields).
+4️⃣ Created visuals for each factor:
 
-Study Satisfaction (SS)
+🔵 Circle chart → Sleep Duration
 
-Academic Pressure (AP)
+📈 Line chart → Study Hours
 
-Financial Stress (FS)
+📊 Bar chart → Study Satisfaction
 
-Student Count (SC)
+🟪 Square chart → Academic Pressure
 
-📌 Dashboard Insights
+🔴 Bubble chart → Financial Stress
+5️⃣ Combined all sheets into a single interactive dashboard.
+6️⃣ Added formatting, labels, and insights.
 
-The Tableau dashboard provides:
+🖼️ Dashboard Snapshot
 
-Sleep Duration vs. Student Count – Distribution of students based on sleep duration categories.
+🔍 Insights
+🛌 Sleep Duration
 
-Study Hours vs. Student Count – Trends in study hours across different student groups.
+5–6 hrs → 123 students
 
-Study Satisfaction vs. Student Count – Satisfaction levels (scale 1–5).
+7–8 hrs → 128 students
 
-Academic Pressure vs. Student Count – Pressure levels (scale 1–5).
+< 5 hrs → 123 students
 
-Financial Stress vs. Student Count – Stress levels (scale 1–5).
+8 hrs → 128 students
+👉 Students are evenly distributed across sleep patterns.
 
-🎯 Key Learnings
+📖 Study Hours
 
-How to connect SQL Server to Tableau Desktop
+Range: 0 to 12 hrs
 
-Building interactive dashboards with multiple metrics
+Peak: 10 hrs → 53 students
 
-Visual storytelling with data
+Average: 6–8 hrs
+
+🙂 Study Satisfaction (Scale 1–5)
+
+Highest: 116 students (Level 4)
+
+Lowest: 86 students (Level 1)
+👉 Majority are moderately satisfied.
+
+🎯 Academic Pressure (Scale 1–5)
+
+Max: 125 students (Level 3)
+
+Min: 88 students (Level 2)
+👉 Most face moderate pressure.
+
+💰 Financial Stress (Scale 1–5)
+
+Lowest stress (Level 1) → 110 students
+
+Other levels: 94–102 students each
+👉 Financial stress is not a major issue.
+
+🗄️ Data Preparation Queries (SQL Server)
+-- Sleep Duration distribution
+SELECT Sleep_Duration, COUNT(Student_ID) AS Student_Count
+FROM Student_Data
+GROUP BY Sleep_Duration;
+
+-- Study Hours distribution
+SELECT Study_Hours, COUNT(Student_ID) AS Student_Count
+FROM Student_Data
+GROUP BY Study_Hours
+ORDER BY Study_Hours;
+
+-- Study Satisfaction levels
+SELECT Study_Satisfaction, COUNT(Student_ID) AS Student_Count
+FROM Student_Data
+GROUP BY Study_Satisfaction
+ORDER BY Study_Satisfaction;
+
+-- Academic Pressure levels
+SELECT Academic_Pressure, COUNT(Student_ID) AS Student_Count
+FROM Student_Data
+GROUP BY Academic_Pressure;
+
+-- Financial Stress levels
+SELECT Financial_Stress, COUNT(Student_ID) AS Student_Count
+FROM Student_Data
+GROUP BY Financial_Stress;
+
+📚 Key Learnings
+
+✅ How to connect SQL Server → Tableau Desktop
+✅ Writing SQL queries for aggregation & preparation
+✅ Building multi-factor dashboards
+✅ Designing storytelling dashboards for insights
