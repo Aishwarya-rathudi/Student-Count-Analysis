@@ -40,6 +40,8 @@ By visualizing these metrics, institutions can:
 
 🔵 Circle chart → Sleep Duration
 
+<img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/13f3cd06-0070-4486-bd0c-0876788427d9" />
+
 📈 Line chart → Study Hours
 
 📊 Bar chart → Study Satisfaction
