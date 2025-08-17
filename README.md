@@ -50,6 +50,8 @@ By visualizing these metrics, institutions can:
 
 🔴 Bubble chart → Financial Stress
 
+<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/a6cb1973-72c7-46df-9ee0-a49984aa170f" />
+
 5️⃣ Combined all sheets into a single interactive dashboard.
 
 6️⃣ Added formatting, labels, and insights.
